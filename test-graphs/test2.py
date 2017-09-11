@@ -1,6 +1,5 @@
 # binary tree with a "deep and cheap" left half and an expensive but shallow right half
 
-# TODO: make this graph directed
 from pygraphml import Graph, GraphMLParser
 
 test2 = Graph()
@@ -25,28 +24,28 @@ q = test2.add_node("Q")
 r = test2.add_node("R")
 s = test2.add_node("S")
 
-test2.add_edge(a, b, directed=False)
-test2.add_edge(b, c, directed=False)
-test2.add_edge(b, d, directed=False)
-test2.add_edge(c, e, directed=False)
-test2.add_edge(c, f, directed=False)
-test2.add_edge(d, g, directed=False)
-test2.add_edge(d, h, directed=False)
-test2.add_edge(f, i, directed=False)
-test2.add_edge(f, j, directed=False)
-test2.add_edge(g, k, directed=False)
-test2.add_edge(g, l, directed=False)
+test2.add_edge(a, b, directed=True)
+test2.add_edge(b, c, directed=True)
+test2.add_edge(b, d, directed=True)
+test2.add_edge(c, e, directed=True)
+test2.add_edge(c, f, directed=True)
+test2.add_edge(d, g, directed=True)
+test2.add_edge(d, h, directed=True)
+test2.add_edge(f, i, directed=True)
+test2.add_edge(f, j, directed=True)
+test2.add_edge(g, k, directed=True)
+test2.add_edge(g, l, directed=True)
 
 for edge in test2.edges():
     edge['weight'] = 1
 
-test2.add_edge(a, m, directed=False)
-test2.add_edge(m, n, directed=False)
-test2.add_edge(m, o, directed=False)
-test2.add_edge(n, p, directed=False)
-test2.add_edge(n, q, directed=False)
-test2.add_edge(o, r, directed=False)
-test2.add_edge(o, s, directed=False)
+test2.add_edge(a, m, directed=True)
+test2.add_edge(m, n, directed=True)
+test2.add_edge(m, o, directed=True)
+test2.add_edge(n, p, directed=True)
+test2.add_edge(n, q, directed=True)
+test2.add_edge(o, r, directed=True)
+test2.add_edge(o, s, directed=True)
 
 
 for edge in test2.edges():

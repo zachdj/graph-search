@@ -30,15 +30,3 @@ class SearchNode:
 
         path.reverse()
         return path
-
-#TODO: delete
-    # returns the path cost of the path represented by this search node by tracing the path backwards
-    # def get_path_cost(self):
-    #     parent = self.parent
-    #     cost = self.cost
-    #
-    #     while parent is not None:
-    #         cost += parent.cost
-    #         parent = parent.parent
-    #
-    #     return cost

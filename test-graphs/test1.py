@@ -1,6 +1,5 @@
 # basic binary tree with all edge weights = 1
 
-# TODO: make this graph directed
 from pygraphml import Graph, GraphMLParser
 
 test1 = Graph()
@@ -21,20 +20,20 @@ m = test1.add_node("M")
 n = test1.add_node("N")
 o = test1.add_node("O")
 
-test1.add_edge(a, b, directed=False)
-test1.add_edge(a, c, directed=False)
-test1.add_edge(b, d, directed=False)
-test1.add_edge(b, e, directed=False)
-test1.add_edge(c, f, directed=False)
-test1.add_edge(c, g, directed=False)
-test1.add_edge(d, h, directed=False)
-test1.add_edge(d, i, directed=False)
-test1.add_edge(e, j, directed=False)
-test1.add_edge(e, k, directed=False)
-test1.add_edge(f, l, directed=False)
-test1.add_edge(f, m, directed=False)
-test1.add_edge(g, n, directed=False)
-test1.add_edge(g, o, directed=False)
+test1.add_edge(a, b, directed=True)
+test1.add_edge(a, c, directed=True)
+test1.add_edge(b, d, directed=True)
+test1.add_edge(b, e, directed=True)
+test1.add_edge(c, f, directed=True)
+test1.add_edge(c, g, directed=True)
+test1.add_edge(d, h, directed=True)
+test1.add_edge(d, i, directed=True)
+test1.add_edge(e, j, directed=True)
+test1.add_edge(e, k, directed=True)
+test1.add_edge(f, l, directed=True)
+test1.add_edge(f, m, directed=True)
+test1.add_edge(g, n, directed=True)
+test1.add_edge(g, o, directed=True)
 
 for edge in test1.edges():
     edge['weight'] = 1
