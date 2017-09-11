@@ -1,5 +1,6 @@
 # binary tree with a "deep and cheap" left half and an expensive but shallow right half
 
+# TODO: make this graph directed
 from pygraphml import Graph, GraphMLParser
 
 test2 = Graph()
@@ -50,9 +51,7 @@ test2.add_edge(o, s, directed=False)
 
 for edge in test2.edges():
     if edge.child()['label'] in ['M', 'N', 'O', 'P', 'Q', 'R', 'S']:
-        edge['weight'] = 2
-
-print( isinstance(test2, Graph))
+        edge['weight'] = 3
 
 parser = GraphMLParser()
 parser.write(test2, "test2.graphml")

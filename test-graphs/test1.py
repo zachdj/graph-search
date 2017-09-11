@@ -1,5 +1,6 @@
 # basic binary tree with all edge weights = 1
 
+# TODO: make this graph directed
 from pygraphml import Graph, GraphMLParser
 
 test1 = Graph()

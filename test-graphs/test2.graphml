@@ -56,25 +56,25 @@
             <data key="weight">1</data>
         </edge>
         <edge directed="false" source="A" target="M">
-            <data key="weight">2</data>
+            <data key="weight">3</data>
         </edge>
         <edge directed="false" source="M" target="N">
-            <data key="weight">2</data>
+            <data key="weight">3</data>
         </edge>
         <edge directed="false" source="M" target="O">
-            <data key="weight">2</data>
+            <data key="weight">3</data>
         </edge>
         <edge directed="false" source="N" target="P">
-            <data key="weight">2</data>
+            <data key="weight">3</data>
         </edge>
         <edge directed="false" source="N" target="Q">
-            <data key="weight">2</data>
+            <data key="weight">3</data>
         </edge>
         <edge directed="false" source="O" target="R">
-            <data key="weight">2</data>
+            <data key="weight">3</data>
         </edge>
         <edge directed="false" source="O" target="S">
-            <data key="weight">2</data>
+            <data key="weight">3</data>
         </edge>
     </graph>
 </graphml>
