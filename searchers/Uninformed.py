@@ -59,8 +59,8 @@ def bfs(problem):
 def ucs(problem):
     current_node = SearchNode(problem.start_node, None, 0)
     frontier = PriorityQueue()
-    # elements of the priority queue are tuples of the form (priority, data)
-    frontier.put( (0, current_node) )
+    # elements of the priority queue are 2-element lists of the form (priority, data)
+    frontier.put( [0, current_node] )
     explored = set()
 
     while True:
@@ -100,7 +100,7 @@ def ucs(problem):
                             item[1] = child_node
 
                 if not child_in_explored and not child_in_frontier:
-                    frontier.put( (child_path_cost, child_node) )
+                    frontier.put( [child_path_cost, child_node] )
 
 
 

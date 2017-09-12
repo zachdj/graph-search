@@ -30,3 +30,13 @@ class SearchNode:
 
         path.reverse()
         return path
+
+    def get_path_cost(self):
+        parent = self.parent
+        cost = self.cost
+
+        while parent is not None:
+            cost += parent.cost
+            parent = parent.parent
+
+        return cost

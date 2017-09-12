@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<graphml>
+    <key attr.name="label" attr.type="string" id="label"/>
+    <key attr.name="weight" attr.type="string" id="weight"/>
+    <graph edgedefault="directed" id="">
+        <node id="Oradea"/>
+        <node id="Zerind"/>
+        <node id="Arad"/>
+        <node id="Sibiu"/>
+        <node id="Fagaras"/>
+        <node id="Timisoara"/>
+        <node id="Rimnicu Vilcea"/>
+        <node id="Lugoj"/>
+        <node id="Pitesti"/>
+        <node id="Mehadia"/>
+        <node id="Drobeta"/>
+        <node id="Craiova"/>
+        <node id="Bucharest"/>
+        <node id="Giurgiu"/>
+        <node id="Urziceni"/>
+        <node id="Neamt"/>
+        <node id="Iasi"/>
+        <node id="Vaslui"/>
+        <node id="Hirsova"/>
+        <node id="Eforie"/>
+        <edge directed="false" source="Oradea" target="Zerind">
+            <data key="weight">71</data>
+        </edge>
+        <edge directed="false" source="Zerind" target="Arad">
+            <data key="weight">75</data>
+        </edge>
+        <edge directed="false" source="Oradea" target="Sibiu">
+            <data key="weight">151</data>
+        </edge>
+        <edge directed="false" source="Arad" target="Sibiu">
+            <data key="weight">140</data>
+        </edge>
+        <edge directed="false" source="Arad" target="Timisoara">
+            <data key="weight">118</data>
+        </edge>
+        <edge directed="false" source="Timisoara" target="Lugoj">
+            <data key="weight">111</data>
+        </edge>
+        <edge directed="false" source="Lugoj" target="Mehadia">
+            <data key="weight">70</data>
+        </edge>
+        <edge directed="false" source="Mehadia" target="Drobeta">
+            <data key="weight">75</data>
+        </edge>
+        <edge directed="false" source="Drobeta" target="Craiova">
+            <data key="weight">120</data>
+        </edge>
+        <edge directed="false" source="Sibiu" target="Rimnicu Vilcea">
+            <data key="weight">80</data>
+        </edge>
+        <edge directed="false" source="Rimnicu Vilcea" target="Craiova">
+            <data key="weight">146</data>
+        </edge>
+        <edge directed="false" source="Sibiu" target="Fagaras">
+            <data key="weight">99</data>
+        </edge>
+        <edge directed="false" source="Rimnicu Vilcea" target="Pitesti">
+            <data key="weight">97</data>
+        </edge>
+        <edge directed="false" source="Pitesti" target="Craiova">
+            <data key="weight">138</data>
+        </edge>
+        <edge directed="false" source="Fagaras" target="Bucharest">
+            <data key="weight">211</data>
+        </edge>
+        <edge directed="false" source="Pitesti" target="Bucharest">
+            <data key="weight">101</data>
+        </edge>
+        <edge directed="false" source="Bucharest" target="Giurgiu">
+            <data key="weight">90</data>
+        </edge>
+        <edge directed="false" source="Bucharest" target="Urziceni">
+            <data key="weight">85</data>
+        </edge>
+        <edge directed="false" source="Urziceni" target="Hirsova">
+            <data key="weight">98</data>
+        </edge>
+        <edge directed="false" source="Hirsova" target="Eforie">
+            <data key="weight">86</data>
+        </edge>
+        <edge directed="false" source="Urziceni" target="Vaslui">
+            <data key="weight">142</data>
+        </edge>
+        <edge directed="false" source="Vaslui" target="Iasi">
+            <data key="weight">92</data>
+        </edge>
+        <edge directed="false" source="Iasi" target="Neamt">
+            <data key="weight">87</data>
+        </edge>
+    </graph>
+</graphml>
